@@ -1,0 +1,81 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter";
+}
+html {
+    font-size: 62.5%;
+}
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 144rem; /* Converted from 1440px */
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.heading-1 {
+    color: #323b4b;
+    font-size: 6rem; /* Converted from 60px */
+    font-weight: 700;
+    line-height: 7.3rem; /* Converted from 73px */
+}
+
+.heading-2 {
+    color: #323b4b;
+    font-size: 4.8rem; /* Converted from 48px */
+    font-weight: 700;
+    line-height: 5.8rem; /* Converted from 58px */
+}
+
+.heading-3 {
+    color: #323b4b;
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 3.4rem; /* Converted from 34px */
+}
+
+.heading-4 {
+    color: #323b4b;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 2.9rem; /* Converted from 29px */
+}
+
+.text-lg {
+    color: #8a94a6;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3.5rem; /* Converted from 35px */
+}
+
+.text-md {
+    color: #8a94a6;
+    font-size: 1.8rem; /* Converted from 18px */
+    font-weight: 500;
+    line-height: 3rem; /* Converted from 30px */
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+    height: 4.5rem; /* Converted from 45px */
+    font-size: 1.8rem; /* Converted from 18px */
+    border-radius: 1rem; /* Converted from 10px */
+    padding-left: 3.3rem; /* Converted from 33px */
+    padding-right: 3.3rem; /* Converted from 33px */
+    color: #ffffff;
+    background-color: #377dff;
+}
