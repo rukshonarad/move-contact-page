@@ -73,6 +73,22 @@
         margin-right: 0;
         display: block;
     }
+    .input:first-child,
+    .input:nth-child(3) {
+        margin-right: 2rem;
+    }
+    .inputs-row {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+    }
+    #submitInput {
+        margin-left: 4rem;
+    }
+    #textAgree {
+        margin-bottom: 2rem;
+        margin-right: 1rem;
+    }
     .contact:nth-child(2) {
         margin-bottom: 3.2rem;
     }
@@ -93,5 +109,8 @@
     }
     .footer__links:nth-child(3) {
         margin-right: 0;
+    }
+    .inputs-row label {
+        display: block;
     }
 }
